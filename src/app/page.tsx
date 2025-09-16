@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   const handleTogglePlay = () => setIsPlaying((prev) => !prev);
-  // sequential row animation: index of the currently animating row
+  // sequential row animation:: index of the currently animating row
   return (
     <motion.main
       initial={{ opacity: 0 }}
